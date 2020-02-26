@@ -17,7 +17,7 @@ function init() {
   document.body.addEventListener("keydown", (event) => {
     pressed.push(event.key)
     pressed.splice(-codes.length - 1,pressed.length-codes.length)
-    if (pressed.toString == codes.toString) {
+    if (pressed.toString() == codes.toString()) {
       console.log(pressed.toString())
     }
   })
