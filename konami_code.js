@@ -19,7 +19,7 @@ function init() {
     pressed.splice(-codes.length - 1,pressed.length-codes.length)
     console.log(pressed);
     if (pressed.toString() === codes.toString()) {
-      alert("hello")
+      alert("Konami Code!")
     }
   })
 }
