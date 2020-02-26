@@ -18,8 +18,8 @@ function init() {
     pressed.push(event.key)
     pressed.splice(-codes.length - 1,pressed.length-codes.length)
     alert(pressed)
-    if (pressed.toString == codes.toString) {
-      alert("Congratulations!")
-    }
+    // if (pressed.toString == codes.toString) {
+    //   alert("Congratulations!")
+    // }
   })
 }
