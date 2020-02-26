@@ -21,4 +21,4 @@ function init() {
     }
   })
 }
-init()
+// init()
