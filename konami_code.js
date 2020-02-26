@@ -18,5 +18,6 @@ function init() {
     pressed.push(event.key)
     pressed.splice(-codes.length - 1,pressed.length-codes.length)
     console.log(pressed)
+    return pressed
   })
 }
