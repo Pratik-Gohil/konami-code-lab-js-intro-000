@@ -19,4 +19,3 @@ function init() {
     // pressed.slice(-10-1,pressed.length-10)
   }
 })
-}
