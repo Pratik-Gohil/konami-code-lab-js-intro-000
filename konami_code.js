@@ -18,7 +18,7 @@ function init() {
     pressed.push(event.key)
     pressed.splice(-codes.length - 1,pressed.length-codes.length)
     console.log(pressed);
-    if (pressed.toString() == codes.toString()) {
+    if (pressed.toString() === codes.toString()) {
       console.log(pressed)
     }
   })
