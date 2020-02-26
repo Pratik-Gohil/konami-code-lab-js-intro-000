@@ -15,3 +15,4 @@ function init() {
   // your code here
   document.addEventListener("keydown", () => alert("key"))
 }
+init()
