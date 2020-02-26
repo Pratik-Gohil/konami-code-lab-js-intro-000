@@ -13,6 +13,6 @@ const codes = [
 
 function init() {
   // your code here
-  document.addEventListener("keydown", (event) => alert(event.key))
+  document.addEventListener("keydown", (event) => alert(event.keyCode))
 }
 init()
