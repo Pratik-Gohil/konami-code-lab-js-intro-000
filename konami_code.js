@@ -14,5 +14,5 @@ const codes = [
 function init() {
   let pressed = []
   // your code here
-  document.body.addEventListener("keydown", (event) => 
+  document.body.addEventListener("keydown", (event) =>
 }
