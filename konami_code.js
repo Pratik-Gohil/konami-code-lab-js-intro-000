@@ -18,5 +18,5 @@ function init() {
     pressed.push(event.key)
     // pressed.slice(-10-1,pressed.length-10)
   }
-  })
+})
 }
