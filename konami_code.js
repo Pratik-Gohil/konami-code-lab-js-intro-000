@@ -17,6 +17,7 @@ function init() {
   document.body.addEventListener("keydown", (event) => {
     pressed.push(event.key)
     pressed.slice(-10-1,pressed.length-10)
+    console.log(pressed)
   }
   })
 }
