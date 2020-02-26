@@ -16,7 +16,7 @@ function init() {
   // your code here
   document.body.addEventListener("keydown", (event) => {
     pressed.push(event.key)
-    pressed.slice(-codes.length - 1,pressed.length-codes.length)
+    pressed.splice(-codes.length - 1,pressed.length-codes.length)
     console.log(pressed)
   })
 }
